@@ -1,0 +1,17 @@
+<div class="details-container">
+    <br><br><br>
+    <p-card [header]="gameCard?.title" subheader="Category:  {{gameCard?.category}}" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <img alt="Card" [src]="gameCard?.img" [style]="{height: '100%', width: '100%'}" />
+        </ng-template>
+
+        <p>
+            {{gameCard?.description}}
+        </p>
+        <p>
+            Stock: {{gameCard?.stock}} 
+        </p>
+
+
+    </p-card>
+</div>

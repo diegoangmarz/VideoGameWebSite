@@ -1,0 +1,23 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+
+    background-image: url('https://cdn.steamstatic.com/steamcommunity/public/images/items/397540/3a86e2884b2f05fe64de9d8ad58e56d20aaf16a8.jpg');
+    background-size: cover; /* Ajustar tamaño para cubrir el área completa */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-attachment: fixed; /* Hacer que la imagen de fondo permanezca fija */
+
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 10vh; /* Elimina el relleno predeterminado */
+}
+
+.product-row{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+

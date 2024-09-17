@@ -1,0 +1,176 @@
+
+
+.contact-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('https://steamcommunity.com/economy/profilebackground/items/397540/f7d840150336dffe438c9053706359b3582c360a.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    /* Otros estilos opcionales */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    height: 84vh; /* Establece la altura del cuerpo para cubrir la pantalla */ 
+
+
+}
+.contact-row{
+  
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+
+
+
+  .container1,
+.container2,
+.container3,
+.container4 {
+    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-right: 50px; /* Ajusta el margen derecho según sea necesario */
+    margin-bottom: 20px; /* Agrega margen inferior para separar los contenedores verticalmente */
+    margin-top: 20px;
+    width: 25vh;
+    height: 50vh;
+}
+
+  ----------------------------------
+  .container1{
+    border: 2px solid #167a7a; 
+
+  }
+  .bc-copy-block__heading1 {
+    margin: 0px; /* Elimina el margin */
+    padding: 5px; /* Elimina el padding */
+    background-color: #13304e;
+    color: #1998bb  ;
+    border: 2px solid #25e1e3; /* Contorno de 2 píxeles de ancho y color rojo */
+    
+
+
+  }
+  .info1{
+    background-color: #225d89;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #25e1e3; /* Contorno de 2 píxeles de ancho y color rojo */
+
+}
+.texto1 p{
+    color: #2bd3d4;
+  }
+
+
+------------------
+.container4{
+    border: 0px solid #8b6148; /* Contorno de 2 píxeles de ancho y color rojo */
+
+  }
+  .bc-copy-block__heading4 {
+    margin: 0px; /* Elimina el margin */
+    padding: 5px; /* Elimina el padding */
+    background-color: #5c290a;
+    color: #dc8420;
+    border: 2px solid #fd8f14; /* Contorno de 2 píxeles de ancho y color rojo */
+
+  }
+  .texto4 p{
+    color: #eeab02;
+  }
+  .info4{
+    background-color: #503613;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #fd8f14; /* Contorno de 2 píxeles de ancho y color rojo */
+}
+----------------------------------------------------
+.container3{
+    border: 5px solid #8b6148; /* Contorno de 2 píxeles de ancho y color rojo */
+
+  }
+  .bc-copy-block__heading3 {
+    margin: 0px; /* Elimina el margin */
+    padding: 5px; /* Elimina el padding */
+    background-color: #1d310c;
+    color: #29ad01;
+    border: 2px solid #628236; /* Contorno de 2 píxeles de ancho y color rojo */
+
+  }
+  .texto3 p{
+    color: #35f501;
+  }
+  .info3{
+    background-color: #3d601c;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #628236; /* Contorno de 2 píxeles de ancho y color rojo */
+}
+----------------------------------------------
+.container2 {
+  border: 0px solid #8b6148;
+  /* Contorno de 2 píxeles de ancho y color rojo */
+}
+
+.bc-copy-block__heading2 {
+  margin: 0px;
+  /* Elimina el margin */
+  padding: 5px;
+  /* Elimina el padding */
+  background-color: #4c1261;
+  color: #e780e5;
+  border: 2px solid #804997;
+  /* Contorno de 2 píxeles de ancho y color rojo */
+}
+
+.texto2 p {
+  color: #f03be3;
+}
+
+.info2 {
+  background-color: #604298;
+  display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 2px solid #804997;
+  /* Contorno de 2 píxeles de ancho y color rojo */
+}
+
+
+
+--------------------------------------------
+
+.image {
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  display: flex;
+  
+}
+ h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center; /* Centrar horizontalmente */
+    display: flex;
+    padding: 2vh;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: countach,Arial Narrow,sans-serif;
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  
+}
+
+body {
+    /*background-image: url('https://steamcommunity.com/economy/profilebackground/items/397540/f7d840150336dffe438c9053706359b3582c360a.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    /* Otros estilos opcionales */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    height: 84vh; /* Establece la altura del cuerpo para cubrir la pantalla */
+    background-color: black;
+  }
+  h1{
+    color: #FCEE00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+
+}
+p {
+    color: white ; /* Cambia este valor al color deseado */
+
+}
+.container{
+    display: flex;
+    justify-content: center ; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding: 5vh;
+
+
+  }
+
+.row-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+
+}
+
+.text-container{
+    margin: 2vh;
+}
+.video{
+    display: flex;
+    justify-content: center ; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-left: 50px;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    background-color: #FCEE00;
+}
+
+
+

@@ -1,0 +1,10 @@
+
+    <div class="product-container">
+        <div class="product-row">
+            @for (game of gameList; track $index) {
+                <app-card [gameCard]="game"/>
+            }
+        </div>
+    </div>
+
+

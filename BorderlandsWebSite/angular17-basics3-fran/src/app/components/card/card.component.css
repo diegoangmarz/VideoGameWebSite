@@ -1,0 +1,12 @@
+.img-card {
+    width: 350px;
+    height: 350px;
+}
+.custom-button .p-button-label {
+    color: yellow; /* Texto amarillo */
+    background-color: black; /* Fondo negro */
+    border: 2px solid yellow; /* Borde amarillo */
+}
+
+
+  
