@@ -24,7 +24,7 @@ export class NavbarComponent {
           {
               label: 'Home',
               icon: 'pi pi-fw pi-file',
-              routerLink: '/Home'
+              routerLink: '/'
           },
           {
             label: 'About Us',
